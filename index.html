@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html class="light" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>An Hi | Nâng Tầm Không Gian Sống - Thiết Kế &amp; Thi Công Nội Thất</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#8B5E3C",
+                        "on-primary": "#ffffff",
+                        "background": "#fcf9f8",
+                        "surface": "#fcf9f8",
+                        "surface-container": "#f0eded",
+                        "surface-container-low": "#f6f3f2",
+                        "on-surface": "#1b1c1c",
+                        "on-surface-variant": "#51443c",
+                        "outline": "#83746b",
+                        "outline-variant": "#d5c3b8",
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif", "serif"],
+                        "body": ["Manrope", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Manrope', sans-serif; background-color: #fcf9f8; color: #1b1c1c; scroll-behavior: smooth; }
+        h1, h2, h3, h4 { font-family: 'Noto Serif', serif; }
+        .glass-nav { background: rgba(252, 249, 248, 0.9); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(131, 116, 107, 0.1); }
+        .monograph-shadow { box-shadow: 0 15px 35px rgba(139, 94, 60, 0.1); }
+        .fixed-cta { transition: transform 0.3s ease-in-out; }
+    </style>
+</head>
+<body class="selection:bg-primary selection:text-on-primary">
+<!-- 9. Chat / Hotline Fixed -->
+<div class="fixed bottom-8 right-8 z-[60] flex flex-col gap-4">
+<a class="bg-primary text-on-primary w-14 h-14 rounded-full flex items-center justify-center monograph-shadow hover:scale-110 transition-transform" href="tel:0901234567">
+<span class="material-symbols-outlined">call</span>
+</a>
+<button class="bg-on-surface text-surface w-14 h-14 rounded-full flex items-center justify-center monograph-shadow hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">chat_bubble</span>
+</button>
+</div>
+<!-- Navigation -->
+<nav class="sticky top-0 w-full z-50 glass-nav">
+  <div class="container mx-auto flex justify-between items-center px-6 md:px-24 py-5">
+    
+    <div class="text-2xl font-bold font-headline text-primary tracking-tight">
+      AN HI
+    </div>
+
+    <div class="hidden md:flex items-center gap-10">
+      <a class="text-on-surface-variant font-medium hover:text-primary text-sm uppercase tracking-widest transition-all" href="#portfolio">
+        Portfolio
+      </a>
+      <a class="text-on-surface-variant font-medium hover:text-primary text-sm uppercase tracking-widest transition-all" href="#process">
+        Quy trình
+      </a>
+      <a class="text-on-surface-variant font-medium hover:text-primary text-sm uppercase tracking-widest transition-all" href="#contact">
+        Liên hệ
+      </a>
+    </div>
+
+    <button class="bg-primary text-on-primary px-6 py-2.5 rounded-sm font-semibold text-xs tracking-widest uppercase hover:opacity-90 transition-all">
+      Đăng ký tư vấn
+    </button>
+
+  </div>
+</nav>
+<!-- 1. Hero Section -->
+<section class="relative min-h-[85vh] flex items-center overflow-hidden">
+
+  <!-- Background -->
+  <div class="absolute inset-0 z-0">
+    <img
+      src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZdlF7hXeph1O6tOEhgS8WbHhN6PrsawUrU_RO2TZRSUAYSD0MJ9u7t06AO6971gbgJFbkmgk5EbcS46LxxcGnGzt9HH1gxrwXt8z1o6Cw1kUiYDGI6FxQ70Bgp_Rwsz9nIHG-cvV0k3deFG9fUnhd0GZrXXoopVvCZHkG85fi-RGlWFivh3aKq7H7u6IKDshsPCrxxtu_DkxHTRZGQQtY51UAtKb_DB6JLkQ4i-RzglpP5Y2O20-2IRIcPiq-V65I3fnj3NP5vw"
+      class="w-full h-full object-cover brightness-[0.85]"
+      alt="Premium minimalist architectural interior"
+    />
+  </div>
+
+  <!-- Container -->
+  <div class="container mx-auto px-6 md:px-24 relative z-10">
+
+    <!-- Hero Card -->
+    <div class="max-w-3xl bg-surface/90 backdrop-blur-md p-8 md:p-16 border-l-[6px] border-primary monograph-shadow">
+
+      <span class="font-body uppercase tracking-[0.4em] text-primary text-xs font-bold mb-4 block">
+        Kiến Trúc & Nội Thất An Hi
+      </span>
+
+      <h1 class="text-4xl md:text-6xl font-headline text-on-surface leading-tight mb-6">
+        Nâng tầm không gian sống bằng nghệ thuật kiến trúc
+      </h1>
+
+      <p class="text-lg text-on-surface-variant leading-relaxed mb-10 max-w-xl">
+        Chúng tôi không chỉ xây dựng nhà; chúng tôi kiến tạo những tác phẩm nghệ thuật mang đậm dấu ấn cá nhân, kết hợp hài hòa giữa công năng và thẩm mỹ cao cấp.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="#contact"
+          class="bg-primary text-on-primary px-8 py-4 rounded-sm font-bold tracking-widest uppercase text-xs text-center transition-all hover:bg-opacity-90">
+          Đăng ký tư vấn thiết kế
+        </a>
+
+        <a href="#portfolio"
+          class="bg-white/50 border border-outline/20 text-on-surface px-8 py-4 rounded-sm font-bold tracking-widest uppercase text-xs text-center backdrop-blur-sm hover:bg-white transition-all">
+          Khám phá dự án
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- 2. Customer Pain Points -->
+<section class="py-24 px-6 md:px-12 bg-surface">
+<div class="max-w-7xl mx-auto text-center">
+<h2 class="text-3xl md:text-4xl font-headline text-on-surface mb-16">Bạn đang gặp khó khăn trong việc kiến tạo tổ ấm?</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="p-8 border border-outline-variant/30 flex flex-col items-center">
+<span class="material-symbols-outlined text-5xl text-primary/40 mb-6" data-icon="imagesearch_roller">imagesearch_roller</span>
+<h3 class="text-xl font-headline mb-4">Không gian thiếu thẩm mỹ</h3>
+<p class="text-on-surface-variant leading-relaxed text-sm">Cảm thấy nhàm chán với những thiết kế đại trà, thiếu đi sự tinh tế và cái "tôi" trong không gian sống.</p>
+</div>
+<div class="p-8 border border-outline-variant/30 flex flex-col items-center">
+<span class="material-symbols-outlined text-5xl text-primary/40 mb-6" data-icon="space_dashboard">space_dashboard</span>
+<h3 class="text-xl font-headline mb-4">Bố trí chưa tối ưu</h3>
+<p class="text-on-surface-variant leading-relaxed text-sm">Diện tích sử dụng bị lãng phí, giao thông trong nhà chồng chéo và thiếu ánh sáng tự nhiên.</p>
+</div>
+<div class="p-8 border border-outline-variant/30 flex flex-col items-center">
+<span class="material-symbols-outlined text-5xl text-primary/40 mb-6" data-icon="palette">palette</span>
+<h3 class="text-xl font-headline mb-4">Khó lựa chọn phong cách</h3>
+<p class="text-on-surface-variant leading-relaxed text-sm">Phân vân giữa quá nhiều xu hướng và không biết vật liệu nào bền bỉ, sang trọng theo thời gian.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. An Hi Solutions -->
+<section class="py-24 bg-surface-container-low px-6 md:px-12">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="relative order-2 md:order-1">
+<img class="w-full aspect-[4/3] object-cover rounded-sm grayscale-[0.3]" data-alt="Architectural details and planning" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD41xtm9bpMoJpUiVeqxFjuN1MdF_lx3nl-8UXSOYdQIP-61ve4pslp2uahHuulXxoIQXN7S01kJIUVD2PQIs0YK07dQhFQy1CWf3_PuzljFn9Z5hAOQ2XojPN5bdpnZiPqcyNNQ8vwHVb8NjeOVezxeA9uoPEGlCtI9YuTHF3XSN_Y_KuXUvaPFDZQBa4LMe7s0UaLfbzq13kkfuhxO8Qo3B5Nk4PKF9Mb0uECuE2h0suzE8Xmnu1fEbCwN1SaKqu2zaAKIUl5wQ"/>
+<div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary p-6 hidden lg:flex flex-col justify-center">
+<p class="text-on-primary font-headline text-lg leading-snug">Giải pháp toàn diện từ An Hi</p>
+</div>
+</div>
+<div class="space-y-10 order-1 md:order-2">
+<h2 class="text-3xl md:text-5xl font-headline text-on-surface mb-8">Chúng tôi mang đến giải pháp tối ưu nhất</h2>
+<div class="space-y-8">
+<div class="flex gap-6">
+<span class="text-primary font-headline text-3xl">01</span>
+<div>
+<h4 class="text-xl font-headline mb-2">Thiết kế cá nhân hóa</h4>
+<p class="text-on-surface-variant leading-relaxed">Mỗi bản vẽ là một câu chuyện riêng, phản ánh chính xác phong cách sống và gu thẩm mỹ của gia chủ.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="text-primary font-headline text-3xl">02</span>
+<div>
+<h4 class="text-xl font-headline mb-2">Tối ưu công năng &amp; Thẩm mỹ</h4>
+<p class="text-on-surface-variant leading-relaxed">Sự kết hợp hoàn hảo giữa tiện nghi hiện đại và vẻ đẹp nghệ thuật trường tồn.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="text-primary font-headline text-3xl">03</span>
+<div>
+<h4 class="text-xl font-headline mb-2">Đội ngũ chuyên nghiệp</h4>
+<p class="text-on-surface-variant leading-relaxed">Kỹ sư và kiến trúc sư giàu kinh nghiệm, tận tâm giám sát từng chi tiết nhỏ nhất.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Project Portfolio (including Before/After) -->
+<section class="py-32 px-6 md:px-12 max-w-[1440px] mx-auto" id="portfolio">
+<div class="flex justify-between items-end mb-16">
+<div>
+<h2 class="text-4xl md:text-5xl font-headline text-on-surface mb-2" style="">Dự Án Tiêu Biểu</h2>
+<p class="text-on-surface-variant" style="">Những tác phẩm nghệ thuật chúng tôi đã kiến tạo</p>
+</div>
+<button class="hidden md:block text-primary font-bold border-b-2 border-primary pb-1 uppercase text-xs tracking-widest" style="">Xem tất cả portfolio</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 h-auto md:h-[900px]">
+<div class="md:col-span-8 relative group overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Luxury penthouse apartment with high ceilings, large windows overlooking city, and sophisticated marble flooring" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbdn1gA2-57UFnX9H9pSaJebwaCX1YwyBKtD2lQcapuBOl-CGNbUZI4PLj0lP51GKoqewpxFJncnkQiJd3bCMvv3tc_0BtFK-XGo6ev1qqQNAzIJlbVq_u2Yh6c-IFSvYbzL737BUGhROa6YiVTrTUAvZCe8h6W_IeKmyY7Fa59nprx1Ez43uNQoTUe9aUl5FhBoPIBGivahce8izplN34H7K-CIXNKqvfvRFWWwWb4OyNksPfPbNlMypC5Kk2WcjdNaPWqz9_IA" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-12">
+<div class="text-surface">
+<h4 class="text-2xl font-headline" style="">Penthouse Landmark 81</h4>
+<p class="font-body opacity-80 italic" style="">Phong cách Hiện đại &amp; Sang trọng</p>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 relative group overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Serene master bedroom in a villa featuring warm wood accents, linen bedding, and soft ambient lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1GE-16O0eeHJbxbg9iysVGfA0pWgR5Fx5Q4fYHZjwL9Nh47MQJvsZSRTX3yf2zY5mm42Vh0-9zMVW7hauuW4VIe8SlglWr4KbmAyxWTGxVWyMXVY3BzghNNnZT_AbDeKF5ESHyVm7gUnkYKJiyYxX6ApjVbk8WlSBYpnSpl_30xrD8ByBE4GveiXwKwSVX7tc-QX111md8GyZ1Ev6hX_pxMIvYLK3A35egk3mQlzbHAihVrweI2bBEufI4HL6SQi-WeB6-W3Wlw" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<div class="text-surface">
+<h4 class="text-xl font-headline" style="">Villa Thảo Điền</h4>
+<p class="font-body opacity-80 italic" style="">Phong cách Indochine</p>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 relative group overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Minimalist kitchen design with integrated appliances, natural stone island, and hidden storage solutions" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWIU8BJH3oDamXnMqiwpaNRywWs9lwGWi8SYcxisAbRQj2W3EjgutbH809bY6GKC1Cj7v_leLXWiIrQXBaFxcam2EcILVSoZLUgRY8ZiBOVCIB61rU6pbeg4thgnbTNyfl7w66la6Qys1IjOd1lamkbhq-ydy2TZmOdsrxSUM7XSiTrSqIu40IxpyFb2l54GbMa2k2gRbX-_FzXDBTP-IXsJgm5yWbQYOBry4HpYO9oKa9OTqyk-JwYT66HW8t_PPQ2zph0yyodA" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<div class="text-surface">
+<h4 class="text-xl font-headline" style="">Townhouse Sala</h4>
+<p class="font-body opacity-80 italic" style="">Minimalist Wabi Sabi</p>
+</div>
+</div>
+</div>
+<div class="md:col-span-8 relative group overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Bright and airy home office with customized bookshelf, ergonomic designer chair, and plenty of natural greenery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJcKwo2hgN66sv5dfzB2MIkGDA9qkYVGbXyjIet0RAAXPuZgpv3J6Fp2FDte0WZTLhrEEyxUpHoXtF1RA1m77x6aL14pnuqwwPcPVMP5KLoki8-b-bfySLi7JiP0NW9PVCmkEUVfSVLaHtAdKBUz0s73VSyla32lC4_YKlAd5STXZ2ugAchCaZf3mqVI4yd7-wTs9-vMCTUxsDuoXq2b5qEc2aLLm6XsVaZAXTMlyG1ALniCBxu9sLWTsOmgV1bSv_P1pcKtZX9Q" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-12">
+<div class="text-surface">
+<h4 class="text-2xl font-headline" style="">Studio &amp; Workspace</h4>
+<p class="font-body opacity-80 italic" style="">Cảm hứng từ Thiên nhiên</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Project Video/Story -->
+<section class="py-24 bg-on-surface text-surface px-6 md:px-12">
+<div class="max-w-5xl mx-auto flex flex-col items-center text-center">
+<h2 class="text-3xl md:text-4xl font-headline mb-8">Câu Chuyện Từ Những "Kẻ Kể Chuyện Bằng Không Gian"</h2>
+<p class="text-surface/70 leading-relaxed mb-12 max-w-2xl">Mỗi công trình không chỉ là gạch đá và gỗ, đó là tâm huyết và hành trình cùng gia chủ tạo nên một bến đỗ bình yên.</p>
+<div class="w-full aspect-video bg-surface/10 rounded-sm relative flex items-center justify-center cursor-pointer group overflow-hidden">
+<img class="absolute inset-0 w-full h-full object-cover opacity-40 transition-transform duration-1000 group-hover:scale-110" data-alt="Project story thumbnail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCm71i6pbwvloj0Ph_nBmyxr2xVS3OGcDnSla-aCTO1_J40pXJgKr0Ia7q-pqhrQJc_OgMN8TfZlpwIVwsQemWR66B_tVd8vNGy-uvHW5fZFuVfshDtS4gEdwJtPA4DJYXLhn5Z5cU6wKFQIZWEMRxLRYekLoz6r0hlB5Xd6MCf_X5hlAlLrCIXgiXzsvWceFgi4smIzT9rX-CkH1E5dv4ySnQ0teyFlNFIaL7MF3hguLX9rF7fvee67LA6LymS1H6ogd8t0ZWpcw"/>
+<div class="w-20 h-20 rounded-full border-2 border-surface flex items-center justify-center group-hover:scale-110 transition-transform bg-primary/20 backdrop-blur-sm relative z-10">
+<span class="material-symbols-outlined text-4xl" data-icon="play_arrow">play_arrow</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Customer Reviews -->
+<section class="py-24 px-6 md:px-12 bg-surface">
+<div class="max-w-4xl mx-auto text-center">
+<span class="material-symbols-outlined text-5xl text-primary/30 mb-8" data-icon="format_quote">format_quote</span>
+<p class="text-xl md:text-2xl font-headline italic text-on-surface-variant leading-relaxed mb-10">
+            "An Hi đã biến căn hộ thô của tôi thành một tác phẩm nghệ thuật thực sự. Sự tinh tế trong cách họ xử lý ánh sáng và vật liệu gỗ khiến tôi cảm thấy thư thái mỗi khi trở về nhà. Thực sự là một trải nghiệm thiết kế khác biệt."
+        </p>
+<div class="flex items-center justify-center gap-4">
+<img class="w-14 h-14 rounded-full object-cover grayscale" data-alt="Client avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvAxz7kGPNPiLg4rXfanwHhg6qX48I1E6Kk7ZwXIZGhw5OUVDKt60BfXY2Kr_-pdtjXAN8khZz35oOSdrIoskJGayNCDddZuDk-3kJ9uropcw_LrRYk8sJorbdoCuuVikkCKoRF4zNNYvZibzwELl7rVieUymkAKOkVpfUep9znlNLePO_nU6cGTMZClonj5yRveNtCorr8RPzJj5JZy-5Wv-v-pNb8KNn8-RUwZWVtjovsrhTxYjf74ZQZX2jzhlRYZXdx6yZhQ"/>
+<div class="text-left">
+<div class="font-bold text-sm tracking-widest uppercase">Chị Mai Phương</div>
+<div class="text-xs text-on-surface-variant">Chủ sở hữu - Serenity Sky Villas</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Work Process -->
+<section class="py-24 bg-surface-container-low px-6 md:px-12" id="process">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-3xl font-headline text-center mb-16">Hành Trình Kiến Tạo</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+<div class="bg-surface p-8 border-t-2 border-primary monograph-shadow">
+<div class="text-4xl font-headline text-primary/20 mb-4">01</div>
+<h4 class="text-lg font-headline mb-4">Khởi Nguồn Ý Tưởng</h4>
+<p class="text-xs text-on-surface-variant leading-relaxed">Tiếp nhận yêu cầu, khảo sát hiện trạng và định hình phong cách thiết kế sơ bộ.</p>
+</div>
+<div class="bg-surface p-8 border-t-2 border-primary monograph-shadow">
+<div class="text-4xl font-headline text-primary/20 mb-4">02</div>
+<h4 class="text-lg font-headline mb-4">Phát Triển Thiết Kế</h4>
+<p class="text-xs text-on-surface-variant leading-relaxed">Thiết kế 3D chi tiết, lựa chọn vật liệu và bóc tách dự toán kỹ thuật.</p>
+</div>
+<div class="bg-surface p-8 border-t-2 border-primary monograph-shadow">
+<div class="text-4xl font-headline text-primary/20 mb-4">03</div>
+<h4 class="text-lg font-headline mb-4">Thi Công &amp; Sản Xuất</h4>
+<p class="text-xs text-on-surface-variant leading-relaxed">Triển khai thi công tại công trình và sản xuất nội thất tại xưởng An Hi.</p>
+</div>
+<div class="bg-surface p-8 border-t-2 border-primary monograph-shadow">
+<div class="text-4xl font-headline text-primary/20 mb-4">04</div>
+<h4 class="text-lg font-headline mb-4">Bàn Giao &amp; Bảo Hành</h4>
+<p class="text-xs text-on-surface-variant leading-relaxed">Nghiệm thu công trình, bàn giao không gian và thực hiện chính sách bảo trì trọn đời.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-32 bg-surface-container-low px-6 md:px-12">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-4xl font-headline text-center mb-16" style="">Câu Hỏi Thường Gặp</h2>
+<div class="space-y-4">
+<details class="bg-surface p-8 group cursor-pointer" style="">
+<summary class="flex justify-between items-center font-bold text-lg list-none" style="">
+<span class="" style="">Thời gian hoàn thiện một dự án là bao lâu?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more" style="">expand_more</span>
+</summary>
+<p class="mt-6 text-on-surface-variant leading-relaxed" style="">Thông thường, giai đoạn thiết kế mất 2-4 tuần. Thi công nội thất căn hộ mất khoảng 45-60 ngày, còn biệt thự có thể kéo dài từ 3-5 tháng tùy quy mô.</p>
+</details>
+<details class="bg-surface p-8 group cursor-pointer" style="">
+<summary class="flex justify-between items-center font-bold text-lg list-none" style="">
+<span class="" style="">Tôi có thể xem trực tiếp xưởng sản xuất không?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more" style="">expand_more</span>
+</summary>
+<p class="mt-6 text-on-surface-variant leading-relaxed" style="">Chắc chắn. Chúng tôi luôn khuyến khích khách hàng tham quan xưởng tại Bình Dương để trực tiếp kiểm tra chất lượng phôi gỗ và quy trình sản xuất.</p>
+</details>
+<details class="bg-surface p-8 group cursor-pointer" style="">
+<summary class="flex justify-between items-center font-bold text-lg list-none" style="">
+<span class="" style="">An Hi có nhận thi công theo thiết kế có sẵn?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more" style="">expand_more</span>
+</summary>
+<p class="mt-6 text-on-surface-variant leading-relaxed" style="">Có, chúng tôi sẵn sàng bóc tách khối lượng và thi công dựa trên bản vẽ 3D/kỹ thuật bạn đã có, đảm bảo độ hoàn thiện chính xác 95-99% so với thiết kế.</p>
+</details>
+</div>
+</div>
+</section>
+
+<!-- 8. Consultation Registration Form -->
+<section class="py-24 px-6 md:px-12 bg-surface" id="contact">
+<div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
+<div>
+<h2 class="text-4xl md:text-5xl font-headline mb-8">Bắt Đầu Câu Chuyện Của Bạn</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-12">
+                Hãy để đội ngũ kiến trúc sư của An Hi giúp bạn hiện thực hóa giấc mơ về một không gian sống hoàn mỹ. Chúng tôi sẽ phản hồi bạn trong vòng 24h làm việc.
+            </p>
+<div class="space-y-6">
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-primary" data-icon="location_on">location_on</span>
+<span class="text-sm font-medium">123 Đường Nam Kỳ Khởi Nghĩa, Quận 1, TP. HCM</span>
+</div>
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-primary" data-icon="call">call</span>
+<span class="text-sm font-medium">+84 901 234 567</span>
+</div>
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-primary" data-icon="mail">mail</span>
+<span class="text-sm font-medium">hello@anhi-architecture.vn</span>
+</div>
+</div>
+</div>
+<form class="space-y-8 bg-surface-container-low p-8 md:p-12 monograph-shadow border border-outline-variant/10">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div class="flex flex-col gap-2">
+<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Họ và Tên</label>
+<input class="bg-transparent border-0 border-b-2 border-outline-variant/40 focus:border-primary focus:ring-0 px-0 py-2 text-sm" placeholder="Nguyễn Văn A" type="text"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Số Điện Thoại</label>
+<input class="bg-transparent border-0 border-b-2 border-outline-variant/40 focus:border-primary focus:ring-0 px-0 py-2 text-sm" placeholder="0901xxxxxx" type="tel"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Loại hình công trình</label>
+<select class="bg-transparent border-0 border-b-2 border-outline-variant/40 focus:border-primary focus:ring-0 px-0 py-2 text-sm">
+<option>Căn hộ chung cư</option>
+<option>Biệt thự / Villa</option>
+<option>Nhà phố / Townhouse</option>
+<option>Nhà hàng / Café</option>
+</select>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Thông điệp của bạn</label>
+<textarea class="bg-transparent border-0 border-b-2 border-outline-variant/40 focus:border-primary focus:ring-0 px-0 py-2 text-sm" placeholder="Chia sẻ thêm về không gian bạn mong muốn..." rows="3"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-5 rounded-sm font-bold uppercase tracking-widest text-xs transition-all hover:bg-opacity-90 monograph-shadow" type="submit">Gửi Yêu Cầu Tư Vấn Ngay</button>
+</form>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="w-full py-24 px-12 bg-surface-container-low border-t-0">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-16 max-w-7xl mx-auto">
+<div class="md:col-span-1">
+<div class="text-xl font-bold font-headline text-on-surface mb-6" style="">An Hi</div>
+<p class="text-xs font-label uppercase tracking-widest text-on-surface-variant leading-loose" style="">
+                    Curated Interiors &amp; Architecture.<br>
+                    Crafting dreams into reality since 2009.
+                </p>
+</div>
+<div>
+<h5 class="text-xs font-bold font-body uppercase tracking-[0.2em] mb-8 text-primary" style="">Khám Phá</h5>
+<ul class="space-y-4 text-xs font-label uppercase tracking-widest">
+<li class="" style=""><a class="text-on-surface-variant hover:text-primary underline-offset-8 transition-all" href="#" style="">Journal</a></li>
+<li class="" style=""><a class="text-on-surface-variant hover:text-primary underline-offset-8 transition-all" href="#" style="">Studio</a></li>
+<li class="" style=""><a class="text-on-surface-variant hover:text-primary underline-offset-8 transition-all" href="#" style="">Dự án đã thực hiện</a></li>
+<li class="" style=""><a class="text-on-surface-variant hover:text-primary underline-offset-8 transition-all" href="#" style="">Tuyển dụng</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-xs font-bold font-body uppercase tracking-[0.2em] mb-8 text-primary" style="">Hỗ Trợ</h5>
+<ul class="space-y-4 text-xs font-label uppercase tracking-widest">
+<li class="" style=""><a class="text-on-surface-variant hover:text-primary underline-offset-8 transition-all" href="#" style="">Quy trình làm việc</a></li>
+<li class="" style=""><a class="text-on-surface-variant hover:text-primary underline-offset-8 transition-all" href="#" style="">Báo giá tham khảo</a></li>
+<li class="" style=""><a class="text-on-surface-variant hover:text-primary underline-offset-8 transition-all" href="#" style="">FAQ</a></li>
+<li class="" style=""><a class="text-on-surface-variant hover:text-primary underline-offset-8 transition-all" href="#" style="">Liên hệ</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-xs font-bold font-body uppercase tracking-[0.2em] mb-8 text-primary" style="">Kết Nối</h5>
+<div class="flex gap-6">
+<a class="text-on-surface-variant hover:text-primary" href="#" style=""><span class="material-symbols-outlined" data-icon="facebook" style="">social_leaderboard</span></a>
+<a class="text-on-surface-variant hover:text-primary" href="#" style=""><span class="material-symbols-outlined" data-icon="photo_camera" style="">photo_camera</span></a>
+<a class="text-on-surface-variant hover:text-primary" href="#" style=""><span class="material-symbols-outlined" data-icon="smart_display" style="">smart_display</span></a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-24 pt-12 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-xs font-label uppercase tracking-widest text-on-surface-variant" style="">© 2024 An Hi. Curated Interiors &amp; Architecture.</p>
+<div class="flex gap-8 text-xs font-label uppercase tracking-widest text-on-surface-variant">
+<a class="hover:text-primary" href="#" style="">Privacy</a>
+<a class="hover:text-primary" href="#" style="">Terms</a>
+</div>
+</div>
+</footer>
+</body></html>
